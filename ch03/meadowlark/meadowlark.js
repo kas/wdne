@@ -18,9 +18,9 @@ app.use(express.static(__dirname + '/public')); // static middleware
 var fortunes = [
     'Conquer your fears or they will conquer you.',
     'Rivers need springs.',
-    'Do not fear what you don\'t know',
+    'Do not fear what you don\'t know.',
     'You will have a pleasant surprise.',
-    'Whenever possible, keep it simple',
+    'Whenever possible, keep it simple.',
 ];
 
 // in Express, the order in which routes and middleware are added is important!
