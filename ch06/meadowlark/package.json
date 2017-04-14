@@ -1,0 +1,38 @@
+{
+  "name": "meadowlark-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.8.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015-node": "^6.1.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node",
+      "stage-0"
+    ]
+  }
+}
